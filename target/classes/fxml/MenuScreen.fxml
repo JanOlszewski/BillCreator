@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Point3D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="menuScreen" prefHeight="450.0" prefWidth="200.0" style="-fx-background-color: #33ccff;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MenuScreenController">
+   <children>
+      <Separator layoutX="15.0" layoutY="99.0" prefHeight="4.0" prefWidth="169.0" />
+      <Button fx:id="newBillButton" layoutX="50.0" layoutY="116.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #33ccff;" text="NEW&#10;BILL" textAlignment="CENTER" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="120.0">
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+      </Button>
+      <Button fx:id="newProductButton" layoutX="25.0" layoutY="171.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #33ccff;" text="NEW&#10;PRODUCT" textAlignment="CENTER" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="180.0" />
+      <Button fx:id="productListButton" layoutX="25.0" layoutY="240.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #33ccff;" text="PRODUCTS&#10;LIST" textAlignment="CENTER" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="240.0" />
+      <Button fx:id="billsHistoryButton" layoutX="25.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #33ccff;" text="BILLS&#10;HISTORY" textAlignment="CENTER" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="300.0" />
+      <ImageView fitHeight="43.0" fitWidth="40.0" layoutX="29.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/billHistory.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="37.0" fitWidth="38.0" layoutX="30.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/productList.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="29.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/newProduct.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="40.0" fitWidth="40.0" layoutX="29.0" layoutY="123.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/newBill.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="exitButton" layoutX="74.0" layoutY="370.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #33ccff;" text="EXIT" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="360.0" />
+      <ImageView fitHeight="37.0" fitWidth="40.0" layoutX="32.0" layoutY="366.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/exit.png" />
+         </image>
+      </ImageView>
+      <Button alignment="CENTER" layoutX="18.0" layoutY="12.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" prefHeight="74.0" prefWidth="169.0" style="-fx-background-color: #33ccff;" AnchorPane.bottomAnchor="365.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <ImageView fitHeight="69.0" fitWidth="73.0" layoutX="12.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/bill.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="79.0" layoutY="30.0" prefHeight="12.0" prefWidth="102.0" text="BILL CREATOR">
+         <font>
+            <Font name="Segoe UI Semibold" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="79.0" layoutY="50.0" prefHeight="13.0" prefWidth="102.0" text="for everyone" textAlignment="CENTER">
+         <font>
+            <Font name="Monotype Corsiva" size="9.0" />
+         </font>
+      </Label>
+      <Button fx:id="descriptionButton" layoutX="10.0" layoutY="85.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" style="-fx-background-color: transparent;" AnchorPane.bottomAnchor="365.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+   </children>
+</AnchorPane>

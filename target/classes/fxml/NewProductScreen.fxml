@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="newProductScreen" prefHeight="430.0" prefWidth="430.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.NewProductScreenController">
+   <children>
+      <Label alignment="CENTER" layoutX="85.0" layoutY="134.0" prefHeight="40.0" prefWidth="70.0" style="-fx-border-color: #33ccff; -fx-background-color: #b3b3b3;" text="name" textAlignment="CENTER" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="280.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="85.0" layoutY="174.0" prefHeight="40.0" prefWidth="70.0" style="-fx-border-color: #33ccff; -fx-background-color: #b3b3b3;" text="price" textAlignment="CENTER" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="280.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="85.0" layoutY="214.0" prefHeight="40.0" prefWidth="70.0" style="-fx-border-color: #33ccff; -fx-background-color: #b3b3b3;" text="Unit" textAlignment="CENTER" AnchorPane.leftAnchor="80.0" AnchorPane.rightAnchor="280.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="nameTextArea" layoutX="155.0" layoutY="134.0" prefHeight="40.0" prefWidth="200.0" style="-fx-border-color: #33ccff;" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="80.0" />
+      <TextArea fx:id="priceTextArea" layoutX="155.0" layoutY="174.0" prefHeight="40.0" prefWidth="200.0" style="-fx-border-color: #33ccff;" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="80.0" />
+      <TextArea fx:id="unitTextArea" layoutX="155.0" layoutY="214.0" prefHeight="40.0" prefWidth="200.0" style="-fx-border-color: #33ccff;" AnchorPane.leftAnchor="150.0" AnchorPane.rightAnchor="80.0" />
+      <Button fx:id="applyButton" layoutX="290.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #00eb00;" text="apply" />
+      <Button fx:id="clearButton" layoutX="230.0" layoutY="254.0" mnemonicParsing="false" onMouseClicked="#onMouseClicked" onMouseEntered="#onMouseEntered" onMouseExited="#onMouseExited" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #b3b3b3;" text="clear" />
+   </children>
+</AnchorPane>

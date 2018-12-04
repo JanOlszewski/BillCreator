@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainScreenController">
+   <children>
+      <AnchorPane prefHeight="450.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <fx:include source="MenuScreen.fxml" fx:id="menuScreen"/>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="210.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <children>
+            <fx:include source="BillsHistoryScreen.fxml" fx:id="billsHistoryScreen"/>
+            <fx:include source="NewBillScreen.fxml" fx:id="newBillScreen"/>
+            <fx:include source="NewProductScreen.fxml" fx:id="newProductScreen"/>
+            <fx:include source="ProductsListScreen.fxml" fx:id="productsListScreen"/>
+            <fx:include source="DescriptionScreen.fxml" fx:id="descriptionScreen"/>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

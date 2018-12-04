@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="descriptionScreen" prefHeight="430.0" prefWidth="430.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DescriptionScreenController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="201.0" layoutY="207.0" text="DESCTIPTION&#10;Bill Creator is intended for small businesses and for all people&#10;who struggle with manually billing goods. With this application&#10; you can easily generate a bill without having to access the internet.&#10;&#10;CREATED BY&#10;Jan Olszewski&#10;&#10;GRAPHICS&#10;Icon8" textAlignment="CENTER" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0" />
+   </children>
+</AnchorPane>
